@@ -1,0 +1,43 @@
+<html manifest='cache.manifest'>
+  <head>
+    <title>Hello</title>
+    <script src="javascripts/jquery-1.4.2.min.js"></script>
+    <script src="javascripts/detour.js"></script>
+    <script type='text/javascript'>
+      $().ready(detour.init);
+    </script>
+    <style type='text/css'>
+      #content {
+        display: none;
+        margin: auto;
+        width: 600px;
+      }
+
+      #notice {
+        margin: 0;
+        padding: 0;
+        height: 2em;
+        width: 600px;
+      }
+
+      #form {
+        margin: auto;
+        width: 600px;
+      }
+
+      #map {
+        width: 600px;
+        height: 20em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='content'>
+      <div id='notice'></div>
+      <form id='form'>
+        <textarea id='map'></textarea>
+        <p><input type='submit' name='save' /></p>
+      </form>
+    </div>
+  </body>
+</html>
