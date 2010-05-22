@@ -1,0 +1,4 @@
+.bundle
+public
+config.ru
+spec/fixture_root
